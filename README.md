@@ -9,7 +9,7 @@ The Internet has become an indispensable part of our life, However, It also has 
 setup project by following below instructions
 
 ```bash
-clone the repo  git clone https://github.com/ms-rawat/Phishing-Url-Detector
+clone the repo  git clone `https://github.com/ms-rawat/Phishing-Url-Detector`
 cd Phishing-Url-Detector
 ```
 Create and Activate a Virtual Environment
@@ -21,8 +21,29 @@ source sklearn-venv/bin/activate
 * on windows
 ```bash
 python -m venv sklearn-venv
-sklearn-venv\Scripts\activate
+sklearn-venv\Scripts\
 ```
+
+## install dependies
+Install the required dependencies using the `requirements.txt` file
+```bash
+pip install -r requirements.txt
+```
+## Directory Tree 
+```
+├── extensioncode  
+├── sklearn-venv
+├── .gitignore
+├── app.py
+├── feature.py
+├── model.pkl
+├── model.py
+├── phishing.csv
+├── README.md
+├── requirements.txt
+├── test.py
+├── training.py
+
 ## Loading a Chrome Extension from Your Computer
 
 #### Prerequisites
@@ -42,34 +63,22 @@ sklearn-venv\Scripts\activate
   Once Developer mode is enabled, you will see three new buttons at the top of the page: "Load unpacked", "Pack extension", and "Update".
 
 + Click on the "Load unpacked" button.
-  Select Extension Folder and click ok
+  Select Extension Folder in cloned repo and click ok
 
 
 + After selecting the folder, the extension should appear on the Extensions page. You should see your extension listed with its name  `phishing website detector`, icon, and a description.
 
 + Activate the Extension:
-  Ensure the extension is enabled (the toggle switch should be blue). and dont forgot to pin the extension.
+  Ensure the extension is enabled (the toggle switch should be blue). and don't forgot to pin the extension.
+
 
 ## Running the project
-after activating and loading the extension in brouser
+after activating and loading the extension in browser
 
 run the `python app.py` to start backend server know you can click on extension and wait ,The extension will fetch the current URL in the browser and provide information about its authenticity.
 
 
-## Directory Tree 
-```
-├── extensioncode  
-├── sklearn-venv
-├── .gitignore
-├── app.py
-├── feature.py
-├── model.pkl
-├── model.py
-├── phishing.csv
-├── README.md
-├── requirements.txt
-├── test.py
-├── training.py
+
 
 
 ```
@@ -85,3 +94,8 @@ run the `python app.py` to start backend server know you can click on extension 
 2. Creating this notebook helped me to learn a lot about the features affecting the models to detect whether URL is safe or not, also I came to know how to tuned model and how they affect the model performance.
 3. The final conclusion on the Phishing dataset is that the some feature like "HTTTPS", "AnchorURL", "WebsiteTraffic" have more importance to classify URL is phishing URL or not. 
 4. Gradient Boosting Classifier currectly classify URL upto 97.4% respective classes and hence reduces the chance of malicious attachments.
+
+
+### sample phishing websites
+1.https://bryzekcpa-pdf.pages.dev/
+2.https://israel-hamas24newsclipsupdates.vercel.app/
