@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "ML Model Checker",
+  "version": "1.0",
+  "description": "A Chrome extension to check the authenticity of websites using a machine learning model.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "pop.html",
+    "default_icon": {
+      "16": "superman.png",
+      "48": "superman.png",
+      "128": "superman.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
