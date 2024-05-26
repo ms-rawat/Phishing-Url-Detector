@@ -81,11 +81,6 @@ run the `python app.py` to start backend server know you can click on extension 
 
 
 
-```
-
-
-
-
 
 
 
