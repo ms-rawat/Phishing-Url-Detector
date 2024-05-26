@@ -69,10 +69,10 @@ pip install -r requirements.txt
   Ensure the extension is enabled (the toggle switch should be blue). and don't forgot to pin the extension.
 
 
-## Running the project
+## Runni the project
 after activating and loading the extension in browser
 
-run the `python app.py` to start backend server know you can click on extension and wait ,The extension will fetch the current URL in the browser and provide information about its authenticity.
+run the `python app.py` to start backend server ,now you can click on extension and wait ,The extension will fetch the current URL in the browser and provide information about its authenticity.
 
 
 
