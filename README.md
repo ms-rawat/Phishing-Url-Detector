@@ -27,7 +27,7 @@ Install the required dependencies using the `requirements.txt` file
 pip install -r requirements.txt
 ```
 ## Directory Tree 
-
+```
 ├── extensioncode  
 ├── sklearn-venv
 ├── .gitignore
@@ -40,6 +40,7 @@ pip install -r requirements.txt
 ├── requirements.txt
 ├── test.py
 ├── training.py
+```
 
 ## Loading a Chrome Extension from Your Computer
 
